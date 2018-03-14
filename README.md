@@ -106,7 +106,8 @@ YINBIAO：步骤1
 （参考：http://blog.csdn.net/dgatiger/article/details/50414549 ）
 
     > A: 方法一 
-    > >     (1) 将win7中/windwos/fonts目录下SIMSUN.ttf（对应宋体字体）拷贝到ubuntu的/usr/local/lib/python3.5/dist-packages/matplotlib/mpl-data/fonts/ttf目录中
+    > >     (1) 将win7中/windwos/fonts目录下SIMSUN.ttf（对应宋体字体）拷贝到ubuntu的
+    > >         /usr/local/lib/python3.5/dist-packages/matplotlib/mpl-data/fonts/ttf目录中
     > >     (2) 删除~/.cache/matplotlib的缓冲目录: rm -rf ~/.matplotlib/\*.cache
     > >     (3) 第三修改修改配置文件：<br>
     > >         1) /usr/local/lib/python3.5/dist-packages/matplotlib/mpl-data/matplotlibrc,找到如下两项:<br>
@@ -116,7 +117,7 @@ YINBIAO：步骤1
     > >         2) 找到axes.unicode_minus，将True改git为False，解决'-'显示为方块问题<br>
     > 
     > A: 方法二
-    >       (1) 在Ubuntu终端中运行fc-list:zhang=CN,得到Ubuntu系统中的中文字库
+    > >     (1) 在Ubuntu终端中运行fc-list:zhang=CN,得到Ubuntu系统中的中文字库
     >       (2) 使用matplotlib中的font_manager.FrontProperties(fname='/path/to/fonts')来设置每一处的中文字体显示
     >           (参考：blog.csdn.net/onepiece_dn/article/details/46239581)
 
