@@ -118,8 +118,8 @@ YINBIAO：步骤1
     > 
     > A: 方法二
     > >     (1) 在Ubuntu终端中运行fc-list:zhang=CN,得到Ubuntu系统中的中文字库
-    >       (2) 使用matplotlib中的font_manager.FrontProperties(fname='/path/to/fonts')来设置每一处的中文字体显示
-    >           (参考：blog.csdn.net/onepiece_dn/article/details/46239581)
+    > >     (2) 使用matplotlib中的font_manager.FrontProperties(fname='/path/to/fonts')来设置每一处的中文字体显示
+    > >         (参考：blog.csdn.net/onepiece_dn/article/details/46239581)
 
 5. Q: 获取所有帖子信息到数据库时，为了避免重复分析帖子信息，需要判断已获取帖子与未处理过的帖子的分界线；
     ```
