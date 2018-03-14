@@ -106,8 +106,7 @@ YINBIAO：步骤1
 （参考：http://blog.csdn.net/dgatiger/article/details/50414549 ）
 
     > A: 方法一 
-    > >     (1) 将win7中/windwos/fonts目录下SIMSUN.ttf（对应宋体字体）拷贝到ubuntu的
-    > >         /usr/local/lib/python3.5/dist-packages/matplotlib/mpl-data/fonts/ttf目录中
+    > >     (1) 将win7中/windwos/fonts目录下SIMSUN.ttf（对应宋体字体）拷贝到ubuntu的/usr/local/lib/python3.5/dist-packages/matplotlib/mpl-data/fonts/ttf目录中
     > >     (2) 删除~/.cache/matplotlib的缓冲目录: rm -rf ~/.matplotlib/\*.cache
     > >     (3) 第三修改修改配置文件：<br>
     > >         1) /usr/local/lib/python3.5/dist-packages/matplotlib/mpl-data/matplotlibrc,找到如下两项:<br>
