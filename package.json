@@ -2,7 +2,7 @@
     "name": "vscode-docs",
     "version": "0.10.3",
     "author": {
-        "name": "Microsoft Corporation"
+            "name": "Microsoft Corporation"
         },
         "repository": {
             "type": "git",
