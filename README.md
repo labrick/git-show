@@ -6,4 +6,4 @@
 
 添加package.json即可，[文件示例](./package.json)
 
-效果图
+![效果图](./img/dependency.png)
